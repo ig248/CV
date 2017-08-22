@@ -66,19 +66,21 @@ http://google-code-prettify.googlecode.com
 
 /* Use higher contrast and text-weight for printable form. */
 @media print, projection {
-  .str { color: #000 }
-  .kwd { color: #000 }
-  .com { color: #000 }
-  .typ { color: #000 }
-  .lit { color: #044 }
-  .pun, .opn, .clo { color: #440 }
-  .tag { color: #000 }
-  .atn { color: #000 }
-  .atv { color: #000 }
+  .str { color: #000; font-weight: normal }
+  .kwd { color: #000; font-weight: normal }
+  .com { color: #000; font-weight: normal }
+  .typ { color: #000; font-weight: normal }
+  .lit { color: #044; font-weight: normal }
+  .pun, .opn, .clo { color: #440; font-style: normal }
+  .tag { color: #000; font-weight: normal }
+  .atn { color: #000; font-weight: normal }
+  .atv { color: #000; font-weight: normal }
+  pre, blockquote { border: none }
+  a[href]:after { content: none }
 }
 
 /* Put a border around prettyprinted code snippets. */
-pre.prettyprint { padding: 2px; border: 1px solid #888 }
+/*pre.prettyprint { padding: 2px; border: 1px solid #888 } */
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */
