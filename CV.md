@@ -1,0 +1,203 @@
+---
+mainfont: DejaVuSerif.ttf
+sansfont: DejaVuSans.ttf
+monofont: DejaVuSansMono.ttf 
+mathfont: texgyredejavu-math.otf
+header-includes: |
+    \usepackage{fontspec}
+    \usepackage[Symbols]{ucharclasses}
+    \newfontfamily\mainfont{DejaVuSerif}
+    \newfontfamily\fallbackfont{FreeSans}
+    \setTransitionsForSymbols{\fallbackfont}{\mainfont}
+---
+
+# Igor Gotlibovych, PhD (cantab)
+> *A multidisciplinary problem-solver with world-class analytical skills*
+
+[`ig248.gitlab.io`](https://ig248.gitlab.io/)
+
+[`github.com/ig248`](https://github.com/ig248)
+
+[`✉️ igor.gotlibovych@gmail.com`](mailto:igor.gotlibovych@gmail.com)
+
+[`📞 +44(0)7895 802 320` ](tel:+447895802320)
+
+`🌐 London/Cambridge/Munich`
+
+`🗣 EN/DE/RU`
+
+## Expertise
+
+📈 deep learning, applied machine learning, time series, forecasting, optimization, visualisation
+
+📈 algorithms for finance, control systems, DSP, image processing, simulations
+
+🔬 experimental and theoretical research in pure and applied topics
+
+⚙️ shaping product development in multi-disciplinary teams
+
+🛠 design and manufacturing of electronic, optical and mechanical systems
+
+💬 multilingual writing and presentation, backed by experience in teaching and PR
+
+💻 professional software development and deployment using modern tools and practices
+
+`python` `scikit-learn` `tensorflow` `k8s` `terraform` `AWS` `MATLAB` `C` `git` `TDD` `CI`
+
+## Experience
+`Jul 2020 - present$` **Quantitative Researcher** - *[Kvasir Technologies](https://kvasir.ai/)*
+
+* researching and implementing systematic long-short equity strategies using a range of modern ML approaches
+* developing internal research and ML frameworks and tooling
+
+
+`Nov 2018 - Jul 2020` **Head of Machine Learning** - *[Octopus Energy](https://octopus.energy/)*
+
+Using deep learning and smart meter data to bring the energy industry into the 21st century.
+
+* developed and productionised ML models for trading, operational forecasts, and risk modelling
+* researched unsupervised and semi-supervised approaches to time series disaggregation
+* developed core algorithms and tools for flexible battery storage optimisation
+* contributed to a number of internal and open-source tools for ML and optimization
+* set up a scalable ETL and deep learning platform ground-up using open-source stack (`AWS`, `k8s`, `airflow`, `argo`,
+`dask`, `Presto`)
+
+I presented some of our forecasting work at events including PyData London
+([video](https://www.youtube.com/watch?v=p6mKFs6HVlg), [slides](
+https://tech.octopus.energy/data-discourse/PyData2019/TimeSeries.html))
+and Tensorflow London
+([slides](https://tech.octopus.energy/data-discourse/2019-05-15-tensorflow-london-beyond-mse/slides.html)).
+
+
+`Jul 2018 - Nov 2018` **Head of Data Science** - *USIO Energy*
+
+Developed unique personalised energy demand forecasting technology ground-up.
+The core ML team and our IP were [acquired by Octopus
+Energy](https://utilityweek.co.uk/octopus-acquires-artificial-intelligence-failed-usio/)
+
+* hands-on lead in a team of 6 Data Scientists, Software Engineers and Machine Learning Engineers
+* implemented core machine learning framework for reproducible model development and deployment
+* conceived, researched and implemented novel deep learning approaches to time series forecasting
+* hired key team members; introduced processes and best practices
+
+`Jan 2018 - Jul 2018` **Senior Data Scientist** - *Jawbone Health *
+
+I developed machine learning solutions for novel medical diagnostics from wearable sensors.
+
+* developed and implementad a range of signal processing, Bayesian, and machine learning techniques applied to
+multi-channel clinical time series
+* developed a state-of-the-art deep learning algorithm for early diagnostics of atrial fibrillation
+* authored a [conference paper](https://arxiv.org/abs/1807.10707) and presented results at KDD2018
+
+
+`Feb 2016 - Jan 2018` **Algorithm Development/Control Systems Engineer** - *[Cambridge Mechatronics
+Limited](https://www.cambridgemechatronics.com/)*
+
+I developed novel optical image stabilization and autofocus systems, working with
+a multi-disciplinary team of firmware, software, and mechanical engineers.
+
+* designed and implemented multi-dimensional closed-loop control algorithms for highly nonlinear thermally
+actuated systems, using `python`/`scipy` and `MATLAB` for prototyping and `C` for embedded implementation
+* introduced ML methods to optimize performance of non-linear control systems
+* developed a range of `python`, `MATLAB` and `C` tools for real-time sensor data acquisition and processing
+* introduced data science and ML techniques for analysing manufacturing and QA data
+* designed and implemented image acquisition, feature extraction and analysis pipelines that enabled critical
+optimizations across a range of customer projects
+* developed physical models and simulations combining thermal, mechanical and electrical processes, using efficient
+numerical implementations in `python`/`scipy`
+* improved internal software development, testing and release processes, automating software, firmware and hardware
+tests from prototype PCB to handset level
+* co-authored several international patents
+([WO2018015762](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2018015762),
+[WO2017212262](https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017212262))
+
+
+`Apr 2014 - Oct 2016` **Professional Yacht Race Skipper** - *Clipper Ventures, various*
+
+After completing my PhD, I have pursued a number of sailing projects: restoring an ocean-going yacht, teaching
+sailing, and working as a professional race skipped for a round-the-world yacht race.
+
+* used a range of weather analysis, data collection and performance optimisation tools to ensure racing success,
+developed custom scripts for working with `grib` weather files
+* fixing critical electronic and mechanical systems in extreme conditions was part of my daily routine
+* oversaw budgeting, maintenance and day-to-day operations of a yacht with a crew of 20+ and a value in the 7 figures
+* trained and lead an international team of 60+ sailors
+* provided an engaging story for the stakeholders, customers and sponsors through regular blogs and multimedia
+
+
+`Sep 2010 - Apr 2014` **PhD in ultra-cold atom physics** - *University of Cambridge*
+
+I completed my PhD thesis on “Degenerate Bose Gases in a Uniform Potential”. The appeal of my chosen research field
+lies in combining experimental work with advanced theoretical understanding of condensed matter physics.
+
+* developed custom image analysis tools and algorithms
+* designed, manufactured and assembled custom vacuum, electronic, laser, and imaging systems
+* implemented a real-time control and DAQ system with custom software and electronics
+* used a combination of analytical, numerical, and computer algebra methods to develop a theoretical framework for
+describing a novel class of thermo-dynamic systems
+* authored multiple articles in top peer-reviewed journals
+
+
+`Jun 2007 - Aug 2010` **Summer Research Student** - *Max-Planck Institute for Quantum Optics*
+
+During my undergraduate years, I joined a Nobel-prize-winning research group in Munich as a summer student to work on
+developing new laser systems for precision metrology.
+
+* I wrote high-performance code in C and Mathematica to simulate non-linear atomic and optical phenomena, aiding in
+the development of new laser systems
+* Co-authored two papers and presented results at seminars
+
+
+`Sep 2006 - Jun 2010` **MSci in experimental and theoretical physics** - *University of Cambridge*
+
+I took a combination of theory and math-intensive courses from the Mathematics and the Natural Sciences Tripos,
+achieving top grades throughout.
+
+My Master’s thesis on “Microwave Manipulation of Ultracold Atoms” combined development of experimental microwave
+electronics, software control systems and a theoretical study of thermodynamics in reduced dimensionalities.
+
+
+`Sep 1994 - Jul 2006` **High school diploma (Abitur)** - *Germany*
+
+I completed the German Abitur top of the year with a grade of 1.0 (equivalent to an A* average), majoring in maths and
+physics. During my school years, I have won numerous awards for mathematics and science competitions.
+
+## 🏆 Awards and Achievements
+
+* Gates Cambridge Scholar
+* Sir Nevill Mott Prize for best Master’s thesis
+* Churchill College Scholar
+* top of the year in Cambridge for three years running
+* Scholar by the Cambridge European Trust
+* Scholar of the German Studienstiftung
+* Winner of the European Union Contest for Young Scientists
+* captain and winner of the German team in the International Young Physicists' Tournament
+* three-time gold medallist in the International Physics Olympiad
+* part of the German selection for the International Mathematics Olympiad
+
+
+## ⛵ Hobbies
+
+**Making things, Cycling, Mountaineering, Sailing**
+
+
+## 📄 Publications
+0. **End-to-end Deep Learning from Raw Sensor Data: Atrial Fibrillation Detection using Wearables**, I. Gotlibovych
+*et al.*, [*ACM SIGKDD* (2018)](http://www.kdd.org/kdd2018/files/deep-learning-day/DLDay18_paper_21.pdf)
+1. **Observing properties of an interacting homogeneous Bose-Einstein condensate: Heisenberg-limited momentum spread,
+interaction energy, and free-expansion dynamics**, I. Gotlibovych *et al.*, [*Phys.&nbsp;Rev.&nbsp;A* **89**,
+061604\(R\) (2014)](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.89.061604)
+2. **Quantum Joule-Thomson Effect in a Saturated Homogeneous Bose Gas**, T. F. Schmidutz, I. Gotlibovych *et al.*,
+[*Phys.&nbsp;Rev.&nbsp;Lett.* **112**, 040403
+(2014)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.112.040403)
+3. **Bose-Einstein Condensation of Atoms in a Uniform Potential**, A. L. Gaunt, T. F. Schmidutz, I. Gotlibovych, R. P.
+Smith, and Z. Hadzibabic, [*Phys.&nbsp;Rev.&nbsp;Lett.* **110**, 200406
+(2013)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.110.200406)
+4. **A compact single-chamber apparatus for Bose-Einstein condensation of 87Rb**, I. Gotlibovych *et al.*,
+[*arXiv:1212.4108* \[cond-mat.quant-gas\] (2012)](https://arxiv.org/abs/1212.4108)
+5. **XUV frequency combs**, A.Ozawa, A.Vernaleken, I.Gotlibovych, P.Hommelhoff, T.Udem, T.W.Hänsch,
+[*Proceedings of SPIE 7728, Conference on Nonlinear Optics and Applications IV*
+(2010)](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7728/772811/XUV-frequency-combs/10.1117/12.855844.short)
+6. **Non-Collinear High Harmonic Generation: A Promising Outcoupling Method for Cavity-Assisted XUV Generation**, A.
+Ozawa, A. Vernaleken, W. Schneider, I. Gotlibovych et al., [*Opt.&nbsp;Exp.* **16**, 6233-6239
+(2008)](https://www.osapublishing.org/oe/abstract.cfm?uri=oe-16-9-6233)
