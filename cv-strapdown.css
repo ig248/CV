@@ -6,8 +6,8 @@ This chunk is to fix Bootstrap so that the Markdown output looks good
 *******************************************************************/
 
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   font-size: 15px;
   line-height: 150%;
 }
@@ -36,6 +36,11 @@ img {
   width: auto;
 }
 
+.container {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
 /*******************************************************************
 
 This chunk is for Google's Code Prettify:
